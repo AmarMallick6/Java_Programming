@@ -18,6 +18,14 @@ public class D1_Swap2NumbersUsingOperators {
        a=a-b; //30-10=20
        System.out.println("After Swapping values of a: "+ a+" and b :"+ b);
        
+     //Approach -02 (Use *& /Operators)
+       int c=5, d=10;
+       System.out.println("Before Swapping values of c: "+ c+" and d :"+ d);
+       c= c*d; //5*10=50
+       d= c/d; //50/10=5
+       c=c/d; //50/5=10
+       System.out.println("After Swapping values of c: "+ c+" and d :"+ d);
+       
 	}
 
 }
